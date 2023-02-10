@@ -1,5 +1,5 @@
 const express = require('express');
-const { getStudentData,getUniversities,getStudentCourses,addStudent, getTeacher } = require('../controller/controller');
+const { getStudentData,getUniversities,getStudentCourses,addStudent, getTeacher } = require('../Controller/controller');
 const router = express.Router();
 
 
